@@ -9,3 +9,6 @@ To make use of SIMD it is required to enable the required target-features throug
 ```sh
 export RUSTFLAGS="-C target-cpu=znver4"
 ```
+
+
+**This code was open sourced for research purposes**
