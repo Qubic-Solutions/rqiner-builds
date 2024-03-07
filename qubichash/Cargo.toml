@@ -1,0 +1,21 @@
+[package]
+name = "qubichash"
+version = "0.1.0"
+authors = ["Mineco1006"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+keccak-p = "0.1.1"
+keccak-p-x = { path = "../keccak-p-x" }
+unroll = "*"
+
+[dev-dependencies]
+rand = "*"
+stacker = "0.1"
+keccak = { version = "*", features = ["simd"] }
+tiny-keccak = { version = "2.0.0", features = ["k12"]}
+qubic-types = { workspace = true }
+serde_json = "*"
+hex = "*"

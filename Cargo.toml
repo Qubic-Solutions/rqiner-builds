@@ -1,0 +1,8 @@
+[workspace]
+members = ["keccak-p-x", "qubichash"]
+
+[workspace.dependencies]
+qubic-types = { git= "https://github.com/Mineco1006/qubic-utils" }
+
+[profile.dev]
+opt-level = 3
